@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "shield_holder_5000",
+  "version": "${version}",
+  "name": "Shield Holder 5000",
+  "description": "Holds your shield up. That is it.",
+  "authors": [
+    "Cxebby"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.cxebby.shieldholder5000.ShieldHolder5000Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "license": "MIT",
+  "contact": {
+    "sources": "https://github.com/cxebbxd-blip/Shield-Holder-5000"
+  }
+}
